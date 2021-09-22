@@ -5,4 +5,4 @@ Documentación relacionada con las prácticas de IPM del curso 2021-2022, grupo 
 
 ## Información adicional
 
-- Horario de tutorías (para defensas y dudas): miércoles de 16:30 a 19:30 y viernes después de clase. (Si alguien no puede dentro de este horario, que me lo haga saber.)
+- **Horario de tutorías** (para defensas y dudas): miércoles de 16:30 a 19:30 y viernes después de clase. (Si alguien no puede dentro de este horario, que me lo haga saber.)

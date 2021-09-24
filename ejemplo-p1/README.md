@@ -1,4 +1,4 @@
-# IPM 2021. Docencia Expositiva: Ejemplos
+# Aplicación de ejemplo con Python 3 y Gtk+ 3
 
-Este repositorio contiene el código correspondiente a los ejemplos usados en clase.
+En esta carpeta se encuentra el diseño de la interfaz, el diseño _software_ y la implementación de una aplicación de ejemplo de reserva de vuelos en Python 3 y Gtk+ 3.
 

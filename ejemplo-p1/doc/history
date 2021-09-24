@@ -1,0 +1,11 @@
+$ locale
+$ locale -a
+
+$ xgetext *py
+$ cat messages.po
+
+$ msginit -i messages.po -l es_ES.utf-8 -o es_ES.po
+$ vi es_ES.po
+
+$ mkdir -p locales/es/LC_MESSAGES/
+$ msgfmt es_ES.po -o locale/es/LC_MESSAGES/FlightBooker.mo

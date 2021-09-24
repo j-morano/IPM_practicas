@@ -1,0 +1,68 @@
+' sed -ne "s/#c: //p" flight_booker.py | plantuml -p > class-diagram.png
+
+@startuml
+hide empty members
+hide circle
+
+
+
+' 
+' ---- MODEL ----
+' 
+
+package "model" {
+    class BookingData {
+        + one_way : bool
+        + start_date : Maybe Date
+        + return_date : Maybe Date
+        + reset() : void
+        + is_valid() : bool
+    }
+
+    class BookingClient {
+        + book(data: BookingData)
+    }
+}
+
+' 
+' ---- VIEW ----
+'
+package "view" {
+
+    package "Gtk+" {
+    }
+
+    class View {
+        +build_view()
+        +show_all()
+        +connect_delete_event(fun : Callback)
+        +connect_flight_type_changed(fun : Callback)
+        +connect_start_date_changed(fun : Callback)
+        +connect_return_date_changed(fun : Callback)
+        +connect_book_clicked(fun : Callback)
+        +update_view(...)
+    }
+    View -->"*" "Gtk+"
+    View ..> "Gtk+" : <<create>>
+}
+
+' 
+' ---- CONTROLLER ----
+'
+
+class Controller {
+    +set_model(model: Model)
+    +set_view(view : View)
+    +main()
+    +on_flight_type_changed(w : Wiget)
+    +on_start_date_changed(w : Wiget)
+    +on_return_date_changed(w : Wiget)
+    +on_book_clicked(w : Wiget)
+}
+Controller --> BookingData
+Controller ..> BookingClient : <<uses>>
+Controller --> View
+"view" ..> Controller : <<handler>>
+
+            
+@enduml

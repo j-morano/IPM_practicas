@@ -1,0 +1,8 @@
+@startsalt
+{
+  ^Flight Type^
+  "Start date"
+  "Return date"
+  [Book]
+}
+@endsalt

@@ -1,0 +1,59 @@
+# Spanish translations for v package
+# Traducciones al español para el paquete v.
+# Copyright (C) 2020 THE v'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the v package.
+# David Cabrero <david.cabrero@udc.es>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: v 2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-11 19:18+0200\n"
+"PO-Revision-Date: 2020-10-11 19:20+0200\n"
+"Last-Translator: David Cabrero <david.cabrero@udc.es>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: controller.py:61
+msgid "Invalid dates"
+msgstr ""
+
+#: controller.py:63
+msgid "Flight booked"
+msgstr "Vuelvo reservado"
+
+#: controller.py:71
+msgid "Couldn't book flight"
+msgstr "No fue posible reservar el vuelo"
+
+#: view.py:27
+msgid "one-way flight"
+msgstr "Sólo ida"
+
+#: view.py:28
+msgid "return flight"
+msgstr "Ida y vuelta"
+
+#: view.py:37 view.py:39
+msgid "Ex. {}"
+msgstr "Ej. {}"
+
+#: view.py:40
+msgid "Book"
+msgstr "Reservar"
+
+#: view.py:44
+msgid "Start date:"
+msgstr "Fecha de salida"
+
+#: view.py:46
+msgid "Return date:"
+msgstr "Fecha de vuelta"
+
+#: view.py:50
+msgid "FLIGHT BOOKER"
+msgstr "FLIGHT BOOKER"

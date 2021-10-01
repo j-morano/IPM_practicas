@@ -1,4 +1,11 @@
-# ["python3", "-m", "pytest", "-s"]
+"""
+Application tests using pytest.
+
+Usage:
+
+python3 -m pytest -s
+"""
+
 
 import pytest
 

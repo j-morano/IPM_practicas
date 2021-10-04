@@ -4,6 +4,7 @@ Documentación relacionada con las prácticas de IPM del curso 2021-2022, grupo 
 
 ## Links recurrentes
 
+- Configuración para la Práctica 1: <https://ipm-fic.github.io/assignment-202122-00/>
 - Enunciado de la Práctica 1: <https://ipm-fic.github.io/assignment--202122-01/>
 
 

@@ -2,7 +2,7 @@
 
 Documentación relacionada con las prácticas de IPM del curso 2021-2022, grupo 4.3.
 
-## Liks recurrentes
+## Links recurrentes
 
 - Enunciado de la Práctica 1: <https://ipm-fic.github.io/assignment--202122-01/>
 

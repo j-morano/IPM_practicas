@@ -18,6 +18,8 @@ from ipm import e2e
 PATH = './example_atspi.py'
 
 
+# Para que se reinicie la aplicación en cada test, hay que poner
+# scope='function'
 @pytest.fixture(scope='session', autouse=True)
 def app():
     process, app = e2e.run(PATH)

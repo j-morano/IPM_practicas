@@ -9,7 +9,7 @@ Documentación relacionada con las prácticas de IPM del curso 2021-2022, grupo 
 - Configuración: <https://ipm-fic.github.io/assignment-202122-00/>
 - Enunciado: <https://ipm-fic.github.io/assignment--202122-01/>
 
-Apuntes:
+Tareas:
 - [Tarea 1](17-09-2021.md)
 - [Tarea 2](24-09-2021.md)
 - [Tarea 3](01-10-2021.md)
@@ -19,9 +19,10 @@ Apuntes:
 ### Práctica 2
 
 - Enunciado: <https://ipm-fic.github.io/assignment-2021122-02/>
-- Configuración: <22-10-2021.md>
+- [Configuración](22-10-2021.md)
 
-
+Tareas:
+- [Tarea 1](22-10-2021.md)
 
 
 ## Información adicional

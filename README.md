@@ -19,10 +19,10 @@ Tareas:
 ### Práctica 2
 
 - Enunciado: <https://ipm-fic.github.io/assignment-2021122-02/>
-- [Configuración](22-10-2021.md)
+- [Configuración](22-10-2021.md#configuración)
 
 Tareas:
-- [Tarea 1](22-10-2021.md)
+- [Tarea 1](22-10-2021.md#tarea-1-diseño-de-la-interfaz)
 
 
 ## Información adicional

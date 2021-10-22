@@ -31,6 +31,6 @@ Tareas:
 
 * ~~**Hasta el día 03-10-2021**: miércoles de 16:30 a 19:30 y viernes después de clase.~~
 * **A partir del día 04-10-2021**: martes de 17:30 a 20:30 (y, _**excepcionalmente**_, viernes después de clase).
-* ~~Semana del 11-10-2021 al 17-10-2021: jueves de 11:00 a 14:00.i~~
+* ~~Semana del 11-10-2021 al 17-10-2021: jueves de 11:00 a 14:00.~~
 
 (Si alguien no puediera reunirse dentro del horario definido, que me lo haga saber.)

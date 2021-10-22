@@ -16,13 +16,20 @@ Apuntes:
 - [Tarea 4](08-10-2021.md)
 
 
-## Información adicional
+### Práctica 2
 
+- Enunciado: <https://ipm-fic.github.io/assignment-2021122-02/>
+- Configuración: <22-10-2021.md>
+
+
+
+
+## Información adicional
 
 ### Horario de tutorías (para defensas y dudas)
 
 * ~~**Hasta el día 03-10-2021**: miércoles de 16:30 a 19:30 y viernes después de clase.~~
 * **A partir del día 04-10-2021**: martes de 17:30 a 20:30 (y, _**excepcionalmente**_, viernes después de clase).
-* Semana del 11-10-2021 al 17-10-2021: jueves de 11:00 a 14:00.
+* ~~Semana del 11-10-2021 al 17-10-2021: jueves de 11:00 a 14:00.i~~
 
 (Si alguien no puediera reunirse dentro del horario definido, que me lo haga saber.)

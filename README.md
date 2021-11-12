@@ -4,6 +4,12 @@ Documentación relacionada con las prácticas de IPM del curso 2021-2022, grupo 
 
 ## Links recurrentes
 
+### Repositorio del servidor
+
+- Instalación: <https://github.com/nbarreira/ipm2122-server>
+- Operaciones disponibles: <https://github.com/nbarreira/ipm2122-server/blob/main/info-api-rest.md>
+
+
 ### Práctica 1
 
 - Configuración: <https://ipm-fic.github.io/assignment-202122-00/>

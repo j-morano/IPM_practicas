@@ -31,6 +31,13 @@ Tareas:
 - [Tarea 1](22-10-2021.md#tarea-1-diseño-de-la-interfaz)
 
 
+### Práctica 3
+
+- Enunciado: <https://ipm-fic.github.io/assignment-202122-03/>
+- [Tarea 1](12-11-2021.md)
+
+
+
 ## Información adicional
 
 ### Horario de tutorías (para defensas y dudas)

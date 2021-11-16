@@ -2,6 +2,28 @@
 
 Documentación relacionada con las prácticas de IPM del curso 2021-2022, grupo 4.3.
 
+
+## Defensas de prácticas y tareas
+
+### Límites de defensa
+
+**Prácticas**: hasta dos días antes del examen.
+
+**Tareas** (el día límite también se incluye):
+
+Práctica 2:
+* Tarea 1: 05-11-2021
+* Tarea 2: 12-11-2021
+* Tarea 3: 19-11-2021
+* Tarea 4: 26-11-2021
+
+Práctica 3:
+* Tarea 1: 03-12-2021
+* Tarea 2: 10-12-2021
+* Tarea 3: 17-12-2021
+* Tarea 4: 23-12-2021
+
+
 ## Links recurrentes
 
 ### Repositorio del servidor

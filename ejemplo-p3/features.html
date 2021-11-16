@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>NASA Media</title>
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada|Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono&display=swap" rel="stylesheet">
+  </head>
+  
+  <body class="back">
+
+    <!-- header -->
+    <header>
+      <h1>NASA Media</h1>
+    </header>
+
+    <nav>
+      <a href="./index.html" class="button">Volver</a>
+    </nav>
+
+
+    <div class="container">
+    <div class="card caract">
+      <h2 style="margin-top: 2rem; text-align: center;">Características de las páginas</h2>
+      <hr class="title" style="max-width: 1250px;">
+      
+      <!-- article -->
+      <article class="section">
+            <h3>Página de registro (<a class="simple-link" href="signup.html">signup.html</a>)</h3>
+            <p>En la página de registro se ha utilizado un formulario, concretamente el que se puede ver en el extracto de código que se muestra a continuación. En este formulario se han utilizado las etiquetas <code>required</code> en tres campos para hacer que sean cubiertos de forma obligatoria: contraseña, correo electrónico, nombre, fecha de nacimiento y términos y condiciones.</p>
+            <p>Para cada campo, además, se ha utilizado el tipo conveniente, para un adecuado control.</p>
+            <ul>
+              <li>Contraseña: <code>password</code></li>
+              <li>Correo: <code>email</code></li>
+              <li>Fecha de nacimiento: <code>date</code></li>
+              <li>Teléfono: <code>tel</code></li>
+              <li>Resto: <code>text</code></li>
+            </ul>
+        <pre class="prettyprint">
+    &lt;form action=&quot;video_gallery.html&quot;&gt;
+    &lt;p&gt;
+      &lt;label&gt;Nombre *&lt;/label&gt;&lt;br&gt;
+      &lt;input class=&quot;responsive&quot; type=&quot;text&quot; name=&quot;first_name&quot; required&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;label&gt;Apellido&lt;/label&gt;&lt;br&gt;
+      &lt;input class=&quot;responsive&quot; type=&quot;text&quot; name=&quot;last_name&quot;&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;label&gt;Fecha de nacimiento&lt;/label&gt;&lt;br&gt;
+      &lt;input type=&quot;date&quot; name=&quot;bday&quot; required&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;label&gt;Correo electr&oacute;nico *&lt;/label&gt;&lt;br&gt;
+      &lt;input class=&quot;responsive&quot; type=&quot;email&quot; name=&quot;email&quot; required&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;label&gt;Tel&eacute;fono&lt;/label&gt;&lt;br&gt;
+      &lt;input class=&quot;responsive&quot; type=&quot;tel&quot; name=&quot;phone&quot;&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;label&gt;Contrase&ntilde;a *&lt;/label&gt;&lt;br&gt;
+      &lt;input class=&quot;responsive&quot; type=&quot;password&quot; name=&quot;password&quot; required&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;label&gt;Pa&iacute;s&lt;/label&gt;&lt;br&gt;
+      &lt;select&gt;
+        &lt;option&gt;Espa&ntilde;a&lt;/option&gt;
+        &lt;option&gt;Andorra&lt;/option&gt;
+        &lt;option&gt;Portugal&lt;/option&gt;
+        &lt;option&gt;Francia&lt;/option&gt;
+        &lt;option&gt;Italia&lt;/option&gt;
+        &lt;option&gt;Marruecos&lt;/option&gt;
+        &lt;option&gt;Cuba&lt;/option&gt;
+      &lt;/select&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;label&gt;
+        &lt;input type=&quot;checkbox&quot; value=&quot;terms&quot; required&gt;
+        He le&iacute;do y estoy de acuerdo con todos los &lt;a class=&quot;simple-link&quot; href=&quot;#&quot;&gt;t&eacute;rminos y condiciones.&lt;/a&gt; *
+      &lt;/label&gt;
+    &lt;/p&gt;
+
+    &lt;p style=&quot;margin: 2rem;&quot;&gt;Todos los campos marcados con * son obligatorios.&lt;/p&gt;
+    &lt;p&gt;
+      &lt;button class=&quot;button&quot;&gt;Crear cuenta&lt;/button&gt;
+      &lt;button class=&quot;button&quot; type=&quot;reset&quot;&gt;Reiniciar formulario&lt;/button&gt;
+      &lt;a href=&quot;./index.html&quot; class=&quot;button&quot;&gt;Volver&lt;/a&gt;
+    &lt;/p&gt;
+  &lt;/form&gt;
+        </pre>
+      </article>
+
+      <!-- article -->
+      <article class="section">
+        <h3>Página de login (<a class="simple-link" href="login.html">login.html</a>)</h3>
+        <p>Esta página es muy similar a la anterior, con un fromulario con los campos correo electrónico y contraseña, ambos <code>required</code> y con los tipos <code>email</code> y <code>password</code>, respectivamente.</p>
+      </article>
+
+      <!-- article -->
+      <article class="section">
+        <h3>Página de vídeos de la biblioteca (<a class="simple-link" href="video_gallery.html">video_gallery.html</a>)</h3>
+      </article>
+
+      <!-- article -->
+      <article class="section">
+          <h3>Página de imágenes de la biblioteca (<a class="simple-link" href="image_gallery.html">image_gallery.html</a>)</h3>
+      </article>
+      <article class="section">
+          <h3>Comentarios</h3>
+          <p><b><i style="color: #c3a5d9;">Responsiveness</i></b>. Además de lo anterior, se ha intentado en la medida de lo posible que las páginas se adapten a la forma y el tamaño de la ventana del navegador.</p>
+          <p><b style="color: #c3a5d9;">Navegador</b>. El navegador donde se han hecho las pruebas de las páginas es <code>Mozilla Firefox 70.0.1</code>.</p>
+      </article>
+    </div>
+  </div>
+
+    <!-- footer -->
+    <footer class="login">
+      <small>&copy; Copyright 2021, NASA Media</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>Nature Media</title>
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada|Noto+Sans&display=swap" rel="stylesheet">
+  </head>
+  
+  <body class="back">
+
+    <!-- header -->
+    <header>
+      <h1>Nature Media</h1>
+    </header>
+
+
+    <div class="container">
+    <div class="card">
+      <h2 style="margin-top: 2rem; text-align: center;">Registro</h2>
+      <hr class="title">
+      
+      <!-- article -->
+      <article style="text-align: center;">
+        <!-- form -->
+        <form action="video_gallery.html">
+          <p>
+            <label>Nombre *</label><br>
+            <input class="responsive" type="text" name="first_name" required>
+          </p>
+          <p>
+            <label>Apellido</label><br>
+            <input class="responsive" type="text" name="last_name">
+          </p>
+          <p>
+            <label>Fecha de nacimiento</label><br>
+            <input type="date" name="bday" required>
+          </p>
+          <p>
+            <label>Correo electrónico *</label><br>
+            <input class="responsive" type="email" name="email" required>
+          </p>
+          <p>
+            <label>Teléfono</label><br>
+            <input class="responsive" type="tel" name="phone">
+          </p>
+          <p>
+            <label>Contraseña *</label><br>
+            <input class="responsive" type="password" name="password" required>
+          </p>
+          <p>
+            <label>País</label><br>
+            <select>
+              <option>España</option>
+              <option>Andorra</option>
+              <option>Portugal</option>
+              <option>Francia</option>
+              <option>Italia</option>
+              <option>Marruecos</option>
+              <option>Cuba</option>
+            </select>
+          </p>
+          <p>
+            <label>
+              <input type="checkbox" value="terms" required>
+              He leído y estoy de acuerdo con todos los <a class="simple-link" href="#">términos y condiciones.</a> *
+            </label>
+          </p>
+
+          <p style="margin: 2rem;">Todos los campos marcados con * son obligatorios.</p>
+          <p>
+            <button class="button">Crear cuenta</button>
+            <button class="button" type="reset">Reiniciar formulario</button>
+            <a href="./index.html" class="button">Volver</a>
+          </p>
+        </form>
+      </article>
+    </div>
+  </div>
+
+    <!-- footer -->
+    <footer>
+      <small>&copy; Copyright 2018, Nature Media</small>
+    </footer>
+
+  </body>
+</html>

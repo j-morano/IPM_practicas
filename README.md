@@ -12,9 +12,8 @@ Documentación relacionada con las prácticas de IPM del curso 2021-2022, grupo 
 **Tareas** (el día límite también se incluye):
 
 Práctica 2:
-* Tarea 1: 05-11-2021
-* Tarea 2: 12-11-2021
-* Tarea 3: 19-11-2021
+* Tarea 1: 12-11-2021
+* Tareas 2 y 3: 19-11-2021
 * Tarea 4: 26-11-2021
 
 Práctica 3:

@@ -56,7 +56,8 @@ Tareas:
 
 - Enunciado: <https://ipm-fic.github.io/assignment-202122-03/>
 - [Tarea 1](12-11-2021.md)
-
+- Validador HTML principal: <https://validator.w3.org/>
+- Otras herramientas de validación: <https://pressbooks.library.ryerson.ca/wafd/chapter/validating-wai-aria/>
 
 
 ## Información adicional

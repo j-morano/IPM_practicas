@@ -31,7 +31,7 @@ function showDataInstance(error, data) {
 
     // Parse data JSON
     var data = JSON.parse(data);
-    var mediaTypeToShow = thisScript.getAttribute('mediaType');
+    var mediaTypeToShow = thisScript.getAttribute('data-mediaType');
     if (data.media_type === mediaTypeToShow && mediaTypeToShow === 'image') {
         // Create image element
         // Append url from data as image to article in document
@@ -39,6 +39,7 @@ function showDataInstance(error, data) {
         img.src = data.url;
         img.className = 'gallery';
         img.draggable = true;
+        img.alt = data.title
         img.ondragstart = "drag(event)";
         document.getElementById('images').appendChild(img);
         console.log(error, data);
